@@ -7,7 +7,7 @@ once.
 
 A championship of one year is a set of 6 competitions.
 There are 
- - Competitions of the Swiss Championship of the Pony Mounted Games Swiss-Association (http://www.pony-games.ch/new/index.php)
+ - Competitions of the Swiss Championship of the Mounted Games Association Switzerland (https://mgaswitzerland.ch/)
    - a team is made up of 4 or 5 riders. 4 are active in a particular game.
    - Individual-Competitions: no teams but only single-riders.
  - Competitions of the Paires-Championship of Mounted Games Deutschschweiz (http://www.mounted-games-paires.ch/)
