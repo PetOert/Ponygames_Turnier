@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+
+	<name>Ponygames Turnier</name>
+	<!-- The following elements are optional and free of formatting constraints -->
+	<creationDate>Mai 2019</creationDate>
+	<author>Peter Oertel</author>
+	<authorEmail>petoert@yahoo.de</authorEmail>
+	<!-- authorUrl>http://www.example.org</authorUrl -->
+	<copyright>Copyright (C) 2019 Peter Oertel</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<!--  The version string is recorded in the components table --
+	<-- History: 5.19: 0.0: Hello World-Component                -->
+	<version>0.0.01</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>Formal Component with Hello-World-Functionality</description>
+
+	<update> <!-- Runs on update; New since J2.5 -->
+		<schemas>
+			<!-- schemapath type="mysql">sql/updates/mysql</schemapath -->
+		</schemas>
+	</update>
+
+	<!-- Site Main File Copy Section -->
+	<!-- Note the folder attribute: This attribute describes the folder
+		to copy FROM in the package to install therefore files copied
+		in this section are copied from /site/ in the package -->
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>pgturnier.php</filename>
+	</files>
+
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu link='index.php?option=com_pgturnier'>Hello PG-Turnier!</menu>
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder
+			to copy FROM in the package to install therefore files copied
+			in this section are copied from /admin/ in the package -->
+		<files folder="admin">
+			<!-- Admin Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>pgturnier.php</filename>
+			<!-- SQL files section -->
+			<folder>sql</folder>
+		</files>
+	</administration>
+
+</extension>
